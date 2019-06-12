@@ -1,0 +1,93 @@
+{
+  "autzen.laz": {
+    "bounds": [
+      635577.79,
+      848882.15,
+      406.14,
+      639003.73,
+      853537.66,
+      615.26
+    ],
+    "metadata": {
+      "comp_spatialreference": "PROJCS[\"NAD_1983_HARN_Lambert_Conformal_Conic\",GEOGCS[\"GCS_North_American_1983_HARN\",DATUM[\"NAD83_High_Accuracy_Reference_Network\",SPHEROID[\"GRS 1980\",6378137,298.2572221010042,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"false_easting\",1312335.958005249],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]]]",
+      "compressed": true,
+      "count": 10653336,
+      "creation_doy": 198,
+      "creation_year": 2013,
+      "dataformat_id": 3,
+      "dataoffset": 1496,
+      "filesource_id": 0,
+      "global_encoding": 0,
+      "global_encoding_base64": "AAA=",
+      "header_size": 227,
+      "major_version": 1,
+      "maxx": 639003.73,
+      "maxy": 853537.66,
+      "maxz": 615.26,
+      "minor_version": 2,
+      "minx": 635577.79,
+      "miny": 848882.15,
+      "minz": 406.14,
+      "offset_x": 635577.79,
+      "offset_y": 848882.15,
+      "offset_z": 406.14,
+      "project_id": "43891567-4953-4744-9443-49187FCDF4DE",
+      "scale_x": 0.01,
+      "scale_y": 0.01,
+      "scale_z": 0.01,
+      "software_id": "TerraScan",
+      "spatialreference": "PROJCS[\"NAD_1983_HARN_Lambert_Conformal_Conic\",GEOGCS[\"GCS_North_American_1983_HARN\",DATUM[\"NAD83_High_Accuracy_Reference_Network\",SPHEROID[\"GRS 1980\",6378137,298.2572221010042,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"false_easting\",1312335.958005249],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]]]",
+      "srs": {
+        "compoundwkt": "PROJCS[\"NAD_1983_HARN_Lambert_Conformal_Conic\",GEOGCS[\"GCS_North_American_1983_HARN\",DATUM[\"NAD83_High_Accuracy_Reference_Network\",SPHEROID[\"GRS 1980\",6378137,298.2572221010042,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"false_easting\",1312335.958005249],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]]]",
+        "horizontal": "PROJCS[\"NAD_1983_HARN_Lambert_Conformal_Conic\",GEOGCS[\"GCS_North_American_1983_HARN\",DATUM[\"NAD83_High_Accuracy_Reference_Network\",SPHEROID[\"GRS 1980\",6378137,298.2572221010042,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"false_easting\",1312335.958005249],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]]]",
+        "isgeocentric": false,
+        "isgeographic": false,
+        "prettycompoundwkt": "PROJCS[\"NAD_1983_HARN_Lambert_Conformal_Conic\",    GEOGCS[\"GCS_North_American_1983_HARN\",        DATUM[\"NAD83_High_Accuracy_Reference_Network\",            SPHEROID[\"GRS 1980\",6378137,298.2572221010042,                AUTHORITY[\"EPSG\",\"7019\"]],            AUTHORITY[\"EPSG\",\"6152\"]],        PRIMEM[\"Greenwich\",0],        UNIT[\"degree\",0.0174532925199433]],    PROJECTION[\"Lambert_Conformal_Conic_2SP\"],    PARAMETER[\"standard_parallel_1\",43],    PARAMETER[\"standard_parallel_2\",45.5],    PARAMETER[\"latitude_of_origin\",41.75],    PARAMETER[\"central_meridian\",-120.5],    PARAMETER[\"false_easting\",1312335.958005249],    PARAMETER[\"false_northing\",0],    UNIT[\"foot\",0.3048,        AUTHORITY[\"EPSG\",\"9002\"]]]",
+        "prettywkt": "PROJCS[\"NAD_1983_HARN_Lambert_Conformal_Conic\",    GEOGCS[\"GCS_North_American_1983_HARN\",        DATUM[\"NAD83_High_Accuracy_Reference_Network\",            SPHEROID[\"GRS 1980\",6378137,298.2572221010042,                AUTHORITY[\"EPSG\",\"7019\"]],            AUTHORITY[\"EPSG\",\"6152\"]],        PRIMEM[\"Greenwich\",0],        UNIT[\"degree\",0.0174532925199433]],    PROJECTION[\"Lambert_Conformal_Conic_2SP\"],    PARAMETER[\"standard_parallel_1\",43],    PARAMETER[\"standard_parallel_2\",45.5],    PARAMETER[\"latitude_of_origin\",41.75],    PARAMETER[\"central_meridian\",-120.5],    PARAMETER[\"false_easting\",1312335.958005249],    PARAMETER[\"false_northing\",0],    UNIT[\"foot\",0.3048,        AUTHORITY[\"EPSG\",\"9002\"]]]",
+        "proj4": "+proj=lcc +lat_1=43 +lat_2=45.5 +lat_0=41.75 +lon_0=-120.5 +x_0=399999.9999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+        "units": {
+          "horizontal": "foot",
+          "vertical": ""
+        },
+        "vertical": "",
+        "wkt": "PROJCS[\"NAD_1983_HARN_Lambert_Conformal_Conic\",GEOGCS[\"GCS_North_American_1983_HARN\",DATUM[\"NAD83_High_Accuracy_Reference_Network\",SPHEROID[\"GRS 1980\",6378137,298.2572221010042,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"false_easting\",1312335.958005249],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]]]"
+      },
+      "system_id": "",
+      "vlr_0": {
+        "data": "AQABAAAAFQAABAAAAQABAAEEAAABAAEAAgSxhyYAAAAACAAAAQD/fwEIsYc8ACYAAggAAAEACBgGCAAAAQCOIwkIsIcBAAcACwiwhwEABgANCLCHAQAIAPMLAAABAAEAAAwAAAEA/38CDAAAAQD/fwMMAAABAAgABAwAAAEAKiMGDLCHAQACAAcMsIcBAAMADAywhwEAAQANDLCHAQAAAA4MsIcBAAQADwywhwEABQAAAAAAAAAAAA==",
+        "description": "GeoTIFF GeoKeyDirectoryTag",
+        "record_id": 34735,
+        "user_id": "LASF_Projection"
+      },
+      "vlr_1": {
+        "data": "AAAAAADgREAAAAAAACBewAAAAAAAgEVAAAAAAADARkD+1D/1TwY0QQAAAAAAAAAAqPnrlB2kckAAAABAplRYQQAAAAAAAAAA",
+        "description": "GeoTIFF GeoDoubleParamsTag",
+        "record_id": 34736,
+        "user_id": "LASF_Projection"
+      },
+      "vlr_2": {
+        "data": "TkFEXzE5ODNfSEFSTl9MYW1iZXJ0X0NvbmZvcm1hbF9Db25pY3xHQ1MgTmFtZSA9IEdDU19Ob3J0aF9BbWVyaWNhbl8xOTgzX0hBUk58UHJpbWVtID0gR3JlZW53aWNofHwA",
+        "description": "GeoTIFF GeoAsciiParamsTag",
+        "record_id": 34737,
+        "user_id": "LASF_Projection"
+      },
+      "vlr_3": {
+        "data": "UFJPSkNTWyJOQURfMTk4M19IQVJOX0xhbWJlcnRfQ29uZm9ybWFsX0NvbmljIixHRU9HQ1NbIkdDU19Ob3J0aF9BbWVyaWNhbl8xOTgzX0hBUk4iLERBVFVNWyJOQUQ4M19IaWdoX0FjY3VyYWN5X1JlZ2lvbmFsX05ldHdvcmsiLFNQSEVST0lEWyJHUlNfMTk4MCIsNjM3ODEzNywyOTguMjU3MjIyMTAxLEFVVEhPUklUWVsiRVBTRyIsIjcwMTkiXV0sQVVUSE9SSVRZWyJFUFNHIiwiNjE1MiJdXSxQUklNRU1bIkdyZWVud2ljaCIsMF0sVU5JVFsiZGVncmVlIiwwLjAxNzQ1MzI5MjUxOTk0MzNdXSxQUk9KRUNUSU9OWyJMYW1iZXJ0X0NvbmZvcm1hbF9Db25pY18yU1AiXSxQQVJBTUVURVJbInN0YW5kYXJkX3BhcmFsbGVsXzEiLDQzXSxQQVJBTUVURVJbInN0YW5kYXJkX3BhcmFsbGVsXzIiLDQ1LjVdLFBBUkFNRVRFUlsibGF0aXR1ZGVfb2Zfb3JpZ2luIiw0MS43NV0sUEFSQU1FVEVSWyJjZW50cmFsX21lcmlkaWFuIiwtMTIwLjVdLFBBUkFNRVRFUlsiZmFsc2VfZWFzdGluZyIsMTMxMjMzNS45NTgwMDUyNDldLFBBUkFNRVRFUlsiZmFsc2Vfbm9ydGhpbmciLDBdLFVOSVRbImZvb3QiLDAuMzA0OCxBVVRIT1JJVFlbIkVQU0ciLCI5MDAyIl1dXQ==",
+        "description": "OGR variant of OpenGIS WKT SRS",
+        "record_id": 2112,
+        "user_id": "liblas"
+      },
+      "vlr_4": {
+        "data": "AgAAAAIBAAAAAAAAUMMAAP////////////////////8DAAYAFAACAAcACAACAAgABgACAA==",
+        "description": "http://laszip.org",
+        "record_id": 22204,
+        "user_id": "laszip encoded"
+      }
+    },
+    "origin": 0,
+    "points": 10653336,
+    "srs": {
+      "wkt": "PROJCS[\"NAD_1983_HARN_Lambert_Conformal_Conic\",GEOGCS[\"GCS_North_American_1983_HARN\",DATUM[\"NAD83_High_Accuracy_Reference_Network\",SPHEROID[\"GRS 1980\",6378137,298.2572221010042,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"false_easting\",1312335.958005249],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]]]"
+    }
+  }
+}

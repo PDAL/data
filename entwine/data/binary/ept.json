@@ -1,0 +1,74 @@
+{
+  "bounds": [
+    634962.0,
+    848881.0,
+    -1818.0,
+    639620.0,
+    853539.0,
+    2840.0
+  ],
+  "boundsConforming": [
+    635577.0,
+    848882.0,
+    406.0,
+    639004.0,
+    853538.0,
+    616.0
+  ],
+  "dataType": "binary",
+  "hierarchyType": "json",
+  "points": 10653336,
+  "schema": [
+    {
+      "name": "X",
+      "offset": 637291.0,
+      "scale": 0.01,
+      "size": 4,
+      "type": "signed"
+    },
+    {
+      "name": "Y",
+      "offset": 851210.0,
+      "scale": 0.01,
+      "size": 4,
+      "type": "signed"
+    },
+    {
+      "name": "Z",
+      "offset": 511.0,
+      "scale": 0.01,
+      "size": 4,
+      "type": "signed"
+    },
+    {
+      "name": "Red",
+      "size": 2,
+      "type": "unsigned"
+    },
+    {
+      "name": "Green",
+      "size": 2,
+      "type": "unsigned"
+    },
+    {
+      "name": "Blue",
+      "size": 2,
+      "type": "unsigned"
+    },
+    {
+      "name": "Intensity",
+      "size": 2,
+      "type": "unsigned"
+    },
+    {
+      "name": "OriginId",
+      "size": 4,
+      "type": "unsigned"
+    }
+  ],
+  "span": 256,
+  "srs": {
+    "wkt": "PROJCS[\"NAD_1983_HARN_Lambert_Conformal_Conic\",GEOGCS[\"GCS_North_American_1983_HARN\",DATUM[\"NAD83_High_Accuracy_Reference_Network\",SPHEROID[\"GRS 1980\",6378137,298.2572221010042,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6152\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"standard_parallel_1\",43],PARAMETER[\"standard_parallel_2\",45.5],PARAMETER[\"latitude_of_origin\",41.75],PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"false_easting\",1312335.958005249],PARAMETER[\"false_northing\",0],UNIT[\"foot\",0.3048,AUTHORITY[\"EPSG\",\"9002\"]]]"
+  },
+  "version": "1.0.0"
+}
