@@ -18,13 +18,14 @@ Some of the things it has examples of include:
 * Convenient testing size – 10,653,336 points is big enough to matter, but small enough to transmit (66mb)
 
 
-## Classifications
+## Updated Classifications
 
-In 2021, Max Sampson of [Hobu, Inc](https://hobu.co) manually classified 15
-categories of objects
+In 2021, Max Sampson of [Hobu, Inc](https://hobu.co) manually classified 21
+categories of objects on the original Autzen.laz file. This file is called ``autzen-classified.laz``
+and is available for download at [https://github.com/PDAL/data/blob/master/autzen/autzen-classified.laz](https://github.com/PDAL/data/blob/master/autzen/autzen-classified.laz).
 
 
-![Autzen classifications](autzen-classifications.png)
+<a href="http://autzen.entwine.io" rel="some text">![Autzen classifications](autzen-classifications.png)</a>
 
 | Value | Description            |
 | ----- | -----------------------|
@@ -50,3 +51,10 @@ categories of objects
 | 76    | Silo/Storage Tank      |
 | 77    | Bridge Structure       |
 
+
+## autzen.entwine.io
+
+### [Autzen Stadium](https://en.wikipedia.org/wiki/Autzen_Stadium) 2010 LiDAR
+
+``autzen-classified.laz`` data from the [Hobu, Inc](https://hobu.co) team are
+available for bulk download from [https://github.com/PDAL/data/tree/master/autzen](https://github.com/PDAL/data/tree/master/autzen) and viewable at [http://autzen.entwine.io](http://autzen.entwine.io).
