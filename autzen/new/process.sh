@@ -4,6 +4,7 @@ infile="$1"
 
 export GDAL_CACHEMAX=500
 
+export IFS=
 read -r -d '' pipeline << EOM
 [
     {
@@ -14,6 +15,15 @@ read -r -d '' pipeline << EOM
     {
       "type":"filters.colorization",
       "raster":"autzen-2009-naip.jpg"
+    },
+    {
+      "type":"filters.assign",
+      "value": [
+          "Red = Red * 256",
+          "Green = Green * 256",
+          "Blue = Blue * 256",
+          "Intensity = Intensity * 256"
+      ]
     },
         {
             "type":"writers.las",
@@ -33,5 +43,6 @@ EOM
 
 echo $pipeline | pdal pipeline --stdin
 
-pdal translate autzen.laz foo.laz --writers.las.minor_version=2 --writers.las.dataformat_id=3
+untwine -i autzen.laz -o autzen-classified.copc.laz --single_file
+
 
