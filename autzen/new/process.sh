@@ -43,6 +43,6 @@ EOM
 
 echo $pipeline | pdal pipeline --stdin
 
-untwine -i autzen.laz -o autzen-classified.copc.laz --single_file
+/Users/hobu/dev/git/untwine/build/untwine -i autzen.laz -o autzen-classified.copc.laz --single_file
 
 
