@@ -1,4 +1,4 @@
-FROM condaforge/mambaforge:latest as build
+FROM condaforge/miniforge3:latest as build
 MAINTAINER Howard Butler <howard@hobu.co>
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
