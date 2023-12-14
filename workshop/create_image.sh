@@ -5,7 +5,7 @@ export ROOT_DIR="$PWD/PDAL Workshop Materials"
 mkdir -p "$ROOT_DIR"
 
 # grab PDAL repo 
-git clone -n --depth=1 https://github.com/PDAL/PDAL
+git clone --depth=1 https://github.com/PDAL/PDAL
 
 # build pdal docs
 conda create -n "pdal-docs" python=3.11 --yes --quiet
@@ -42,6 +42,8 @@ cp data/workshop/TM_551_101.laz \
 mkdir -p "$ROOT_DIR/exercises/analysis/clipping"
 cp data/workshop/autzen.laz \
     PDAL/doc/workshop/manipulation/clipping/clipping.json \
+    PDAL/doc/workshop/manipulation/clipping/attributes.json \
+    PDAL/doc/workshop/manipulation/clipping/attributes.vrt \
     "$ROOT_DIR/exercises/analysis/clipping/"
 
 
@@ -92,15 +94,15 @@ cp data/workshop/interesting.las "$ROOT_DIR/exercises/translation"
 mkdir -p "$ROOT_DIR/exercises/info"
 cp data/workshop/interesting.las "$ROOT_DIR/exercises/info/"
 
-curl --output-dir "$ROOT_DIR/software/windows" -C - -OL --create-dirs https://download.qgis.org/downloads/QGIS-OSGeo4W-3.32.2-1.msi
-curl --output-dir "$ROOT_DIR/software/windows" -C - -OL --create-dirs https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Windows-x86_64.exe
+curl --output-dir "$ROOT_DIR/software/windows" -C - -OL --create-dirs https://qgis.org/downloads/QGIS-OSGeo4W-3.34.1-2.msi
+curl --output-dir "$ROOT_DIR/software/windows" -C - -OL --create-dirs https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe
 curl --output-dir "$ROOT_DIR/software/windows" -C - -OL --create-dirs https://github.com/jqlang/jq/releases/download/jq-1.7/jq-windows-amd64.exe
 curl --output-dir "$ROOT_DIR/software/windows" -C - -OL --create-dirs https://www.danielgm.net/cc/release/CloudCompare_v2.13.beta_setup_x64.exe
 
 # grab macOS Installers
 curl --output-dir "$ROOT_DIR/software/macOS" -C - -OL --create-dirs https://download.qgis.org/downloads/macos/qgis-macos-pr.dmg
-curl --output-dir "$ROOT_DIR/software/macOS" -C - -OL --create-dirs https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-MacOSX-arm64.sh
-curl --output-dir "$ROOT_DIR/software/macOS" -C - -OL --create-dirs https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-MacOSX-x86_64.sh
+curl --output-dir "$ROOT_DIR/software/macOS" -C - -OL --create-dirs https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh
+curl --output-dir "$ROOT_DIR/software/macOS" -C - -OL --create-dirs https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh
 curl --output-dir "$ROOT_DIR/software/macOS" -C - -OL --create-dirs https://github.com/jqlang/jq/releases/download/jq-1.7/jq-macos-amd64
 curl --output-dir "$ROOT_DIR/software/macOS" -C - -OL --create-dirs https://github.com/jqlang/jq/releases/download/jq-1.7/jq-macos-arm64
 curl --output-dir "$ROOT_DIR/software/macOS" -C - -OL --create-dirs https://www.danielgm.net/cc/release/CloudCompare-2.13.0-x86_64.dmg
@@ -118,19 +120,14 @@ aws s3 sync s3://cool-lidar "$ROOT_DIR/cool-lidar"
 mkdir -p "$ROOT_DIR/software/conda_environments"
 
 # make docker environment 
-# NOTE: need to do this for x86_64
-mkdir docker
-cd docker
+# NOTE: need to do this for x86_64 as well!
 docker image build -t pdal-workshop data/workshop/docker
-docker save -o pdal-workshop_docker-arm64.tar.gz pdal-workshop
-cd ..
-cp "docker/pdal-workshop_docker*.tar.gz" "$ROOT_DIR/software/conda_environments/"
-
+docker save -o "$ROOT_DIR/software/conda_environments/pdal-workshop_docker-arm64.tar.gz" pdal-workshop
 
 mkdir -p staging/conda_environments
 # NOTE: this needs to happen for every platform, not just osx-arm64 
 mamba env create --file "$PWD/PDAL/doc/workshop/environment.yml" -p "$PWD/staging/conda_environments" --yes --quiet
 conda-pack -p staging/conda_environments -o "$ROOT_DIR/software/conda_environments/pdal-workshop_osx-arm64.tar.gz" -f
 
-
-
+CONDA_SUBDIR=osx-64 mamba env create --file "$PWD/PDAL/doc/workshop/environment.yml" -p "$PWD/staging/conda_environments" --yes --quiet
+conda-pack -p staging/conda_environments -o "$ROOT_DIR/software/conda_environments/pdal-workshop_osx-x86_64.tar.gz" -f
