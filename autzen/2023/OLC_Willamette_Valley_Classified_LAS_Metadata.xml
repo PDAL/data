@@ -1,0 +1,341 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>NV5 Geospatial</origin>
+				<pubdate>20231124</pubdate>
+				<title>OLC Willamette Valley 2023 Lidar Point Cloud</title>
+				<geoform>vector</geoform>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract> Product: These lidar data are processed Classified LAS 1.4 files, formatted to 3000 ft x 3000 ft tiles; used to create intensity images, Bare Earth DEMs, and Highest Hit DSMs.
+				Geographic Extent: Benton, Lane, Linn, Marion and Polk Counties, Oregon, covering approximately 426,859 acres.
+				Dataset Description: The OLC Willamette Valley 2023 Lidar project called for the planning, acquisition, processing and production of derivative products of the lidar data and was to be collected at a nominal pulse spacing (NPS) of 0.22 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Lidar Base Specification 2020, Revision A. The native projection is Oregon Lambert Conic Conformal, units are in International feet. The native horizontal datum is NAD83(2011); the native vertical datum is NAVD88; (Geoid 18). Lidar data was delivered as processed Classified LAS 1.4 files, formatted to individual 3000 ft x 3000 ft tiles, intensity images, bare earth DEMs, and highest hit DSMs; all tiled to the same 3000 ft x 3000 ft schema and mosaicked.
+				Ground Conditions: Lidar was collected on July 21 and July 22, 2023 while no snow was on the ground and the area was free of cloud cover and the area was free of cloud cover.</abstract>
+			<lidar>
+				<ldrinfo>
+					<ldrspec>U.S. Geological Survey National Geospatial Program Lidar Base Specification 2020, Revision A</ldrspec>
+					<ldrsens>Riegl 1560iiS</ldrsens>
+					<ldrmaxnr>15</ldrmaxnr>
+					<ldrnps>0.22</ldrnps>
+					<ldrdens>8</ldrdens>
+					<ldranps>0.35</ldranps>
+					<ldradens>12.16</ldradens>
+					<ldrfltht>2,532</ldrfltht>
+					<ldrfltsp>145</ldrfltsp>
+					<ldrscana>58.5</ldrscana>
+					<ldrscanr>Uniform Point Spacing</ldrscanr>
+					<ldrpulsr>1534</ldrpulsr>
+					<ldrpulsd>3</ldrpulsd>
+					<ldrpulsw>0.58</ldrpulsw>
+					<ldrwavel>1064</ldrwavel>
+					<ldrmpia>1</ldrmpia>
+					<ldrbmdiv>0.23</ldrbmdiv>
+					<ldrswatw>2,837</ldrswatw>
+					<ldrswato>60</ldrswato>
+					<ldrgeoid>Geoid 18</ldrgeoid>
+				</ldrinfo>
+				<ldraccur>
+					<ldrchacc>0.046</ldrchacc>
+					<rawnva>0.053</rawnva>
+					<rawnvan>48</rawnvan>
+				</ldraccur>
+				<lasinfo>
+					<lasver>1.4</lasver>
+					<lasprf>7</lasprf>
+					<laswheld>Withheld (ignore) points are identified in these files using the standard LAS Withheld bit.</laswheld>
+					<lasolap>Not applicable</lasolap>
+					<lasintr>16</lasintr>
+					<lasclass>
+						<clascode>1</clascode>
+						<clasitem>Processed, but Unclassified</clasitem>
+					</lasclass>
+					<lasclass>
+						<clascode>2</clascode>
+						<clasitem>Bare-Earth Ground</clasitem>
+					</lasclass>
+					<lasclass>
+						<clascode>7</clascode>
+						<clasitem>Low Noise</clasitem>
+					</lasclass>
+					<lasclass>
+						<clascode>17</clascode>
+						<clasitem>Bridge Decks</clasitem>
+					</lasclass>
+					<lasclass>
+						<clascode>18</clascode>
+						<clasitem>High Noise</clasitem>
+					</lasclass>
+				</lasinfo>
+			</lidar>
+			<purpose>This dataset provides high resolution elevation data that is used to produce three-dimensional models of the earth surface for the purpose of managing natural resources and mapping natural hazards.
+			</purpose>
+			<supplinf>CONTRACTOR: NV5 Geospatial
+				All ground survey data, Lidar data acquisition, calibration, and follow-on processing were completed by the prime contractor, NV5 Geospatial</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>20230721</begdate>
+					<enddate>20230722</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>555000.000000</westbc>
+				<eastbc>735000.000000</eastbc>
+				<northbc>1221000.000000</northbc>
+				<southbc>822000.000000</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>geoscientificinformation</themekey>
+				<themekey>elevation</themekey>
+			</theme>
+			<theme>
+				<themekt>Oregon Geospatial Enterprise Office Metadata Keyword Thesaurus</themekt>
+				<themekey>point cloud</themekey>
+				<themekey>lidar</themekey>
+				<themekey>topography</themekey>
+			</theme>
+			<place>
+				<placekt>Oregon Geospatial Enterprise Office Metadata Keyword Thesaurus</placekt>
+				<placekey>North America</placekey>
+				<placekey>USA</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Benton, Lane, Linn, Marion and Polk Counties</placekey>
+			</place>
+		</keywords>
+		<accconst>No restrictions apply to this data.</accconst>
+		<useconst>This dataset was contracted by the Department of Geology and Mineral Industries (DOGAMI). Information regarding the use of this dataset should be directed to the owner.</useconst>
+		<datacred>DOGAMI, NV5 Geospatial</datacred>
+		<native>Bayes StripAlign v2.2, Applanix PosPac 8.7, Microstation Connect, TerraScan Version 19, TerraModeler Version 19, TerraMatch Version 19, ESRI ArcGIS 10.8.1, LAS Product Creator (NV5 Proprietary), LasMonkey (NV5 Proprietary), Windows 10 Operating System</native>
+	</idinfo>
+	<dataqual>
+		<logic>Classified LAS files were tested by NV5 Geospatial for vertical accuracy. All data is seamless from one tile to the next, no gaps or no data areas.</logic>
+		<complete>These LAS data files include all data points collected. No points have been removed or excluded. A visual qualitative assessment was performed to ensure data completeness. No void areas or missing data exist. The raw point cloud is of good quality and data passes Non-Vegetated Vertical Accuracy specifications.</complete>
+		<posacc>
+			<vertacc>
+				<vertaccr>This data set was produced to meet ASPRS Positional Accuracy Standard for Digital Geospatial Data (2014) for a 10-cm RMSEz Vertical Accuracy Class. The NVA was tested with 48 independent check points located in open terrain and distributed throughout the project as feasible. These check points were not used in the calibration or post processing of the lidar point cloud data. Specifications for this project require that the NVA be 0.196 meters or better AccuracyZ at 95% confidence level.
+				Vegetated Vertical Accuracy (VVA) is also to be computed from the classified las. The VVA was tested with 41 check points in tall grass, forest, and shrub land cover types. These check points were also withheld from the calibration and post processing of the lidar point cloud data and distributed throughout the project area as feasible. Specifications for this project require that the VVA be 0.300 meters or better AccuracyZ at the 95th percentile.</vertaccr>
+				<qvertpa>
+					<vertaccv>0.046</vertaccv>
+					<vertacce>The 48 independent NVA check points were surveyed using the closed level loop technique. Elevations interpolated from the classified lidar surface were compared to the elevation values of the surveyed NVA check points. The RMSE was computed to be 0.152 feet (0.046 meters) resulting in an AccuracyZ at the 95% confidence level of 0.174 feet (0.053 meters). NVA AccuracyZ has been tested and meets the required 0.196 meter NVA at 95% confidence level using (RMSEz * 1.9600) for the classified lidar point cloud as defined by the National Standards for Spatial Data Accuracy (NSSDA) and herein reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.</vertacce>
+				</qvertpa>
+				<qvertpa>
+					<vertaccv>0.476</vertaccv>
+					<vertacce>The 41 independent VVA check points were surveyed using the closed level loop technique. Elevations interpolated from the classified lidar surface were compared to the elevation values of the surveyed VVA check points. The RMSE was computed to be 0.1.562 feet (0.476 meters) resulting in an AccuracyZ at the 95% confidence level of 1.293 feet (0.394 meters). VVA AccuracyZ has been tested and meets the required 0.300 meter VVA at 95% confidence level using (RMSEz * 1.9600) for the classified lidar point cloud as defined by the National Standards for Spatial Data Accuracy (NSSDA) and herein reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.</vertacce>
+				</qvertpa>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NV5 Geospatial</origin>
+						<pubdate>20231124</pubdate>
+						<title>See the survey report PDF for this project area.</title>
+						<geoform>vector digital data and tabular data</geoform>
+						<pubinfo>
+							<pubplace>NV5 Geospatial</pubplace>
+							<publish>NV5 Geospatial</publish>
+						</pubinfo>
+						<othercit>none</othercit>
+						<onlink>www.nv5.com/geospatial</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>20230721</begdate>
+							<enddate>20230722</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>OLC Willamette Valley 2023 Lidar Ground Control</srccitea>
+				<srccontr>This data was used, along with GPS/IMU data, to georeference lidar point cloud data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NV5 Geospatial</origin>
+						<pubdate>20231124</pubdate>
+						<title>See the survey report PDF for this project area.</title>
+						<geoform>raster</geoform>
+						<pubinfo>
+							<pubplace>NV5 Geospatial</pubplace>
+							<publish>NV5 Geospatial</publish>
+						</pubinfo>
+						<othercit>None</othercit>
+						<onlink>www.nv5.com/geospatial</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>50</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>20230721</begdate>
+							<enddate>20230722</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>OLC Willamette Valley 2023 Lidar Ground Survey Points</srccitea>
+				<srccontr>These data were used to assess the vertical accuracy of the lidar point cloud data.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Lidar Pre-Processing:
+					1. Review flight lines and data to ensure complete coverage of the study area and positional accuracy of the laser points.
+					2. Resolve kinematic corrections for aircraft position data using kinematic aircraft GPS and static ground GPS data.
+					3. Develop a smoothed best estimate of trajectory (SBET) file that blends post-processed aircraft position with sensor head position and attitude recorded throughout the survey.
+					4. Calculate laser point position by associating SBET position to each laser point return time, scan angle, intensity, etc. Create raw laser point cloud data for the entire survey in *.las format. Convert data to orthometric elevations by applying a Geoid 18 correction.
+					5. Import raw laser points into manageable blocks to perform manual relative accuracy calibration and filter erroneous points. Classify ground points for individual flight lines.
+					6. Using ground classified points per each flight line, test the relative accuracy. Perform automated line-to-line calibrations for system attitude parameters (pitch, roll, heading), mirror flex (scale) and GPS/IMU drift. Calculate calibrations on ground classified points from paired flight lines and apply results to all points in a flight line. Use every flight line for relative accuracy calibration.
+					7. Adjust the point cloud by comparing ground classified points to supplemental ground control points.</procdesc>
+				<srcused>OLC Willamette Valley 2023 Ground Control</srcused>
+				<procdate>20230726 until 20230830</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>NV5 Geospatial</cntorg>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing</addrtype>
+							<address>1100 NE Circle Blvd., Suite 126</address>
+							<city>Corvallis</city>
+							<state>OR</state>
+							<postal>97330</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>541-752-1204</cntvoice>
+						<hours>Monday through Friday 8:00 AM to 5:00 PM (Pacific Standard Time)</hours>
+						<cntinst>When contacting NV5 Geospatial about this data set, please reference the data set title or other identifying information in your correspondence.</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Lidar Post-Processing:
+					1. Classify data to ground and other client designated classifications using proprietary classification algorithms.
+					2. Manually QC data classification
+					3. After completion of classification and final QC approval, calculate final NVA, VVA, and density information for the project using ground control quality check points.</procdesc>
+				<procdate>20231107</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>NV5 Geospatial</cntorg>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing</addrtype>
+							<address>1100 NE Circle Blvd., Suite 126</address>
+							<city>Corvallis</city>
+							<state>OR</state>
+							<postal>97330</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>541-752-1204</cntvoice>
+						<hours>Monday through Friday 8:00 AM to 5:00 PM (Pacific Standard Time)</hours>
+						<cntinst>When contacting NV5 Geospatial about this data set, please reference the data set title or other identifying information in your correspondence.</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Point</direct>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>Lambert Conic Conformal</mapprojn>
+					<lambertc>
+						<stdparll>43.00000</stdparll>
+						<stdparll>45.50000</stdparll>
+						<longcm>-120.50000000</longcm>
+						<latprjo>41.7500000000</latprjo>
+						<feast>1312335.95800525</feast>
+						<fnorth>0.000000</fnorth>
+					</lambertc>
+				</mapproj>
+				<planci>
+					<plance>Coordinate Pair</plance>
+					<coordrep>
+						<absres>0.01</absres>
+						<ordres>0.01</ordres>
+					</coordrep>
+					<plandu>Intl. feet</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>GCS_NAD_1983_2011</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137</semiaxis>
+				<denflat>298.257221</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>NAVD88 Geoid 18</altdatum>
+				<altres>0.01</altres>
+				<altunits>Intl. feet</altunits>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>DOGAMI</cntper>
+					<cntorg>Oregon Department of Geology and Mineral Industries</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>800 NE Oregon Street, Suite 965</address>
+					<city>Portland</city>
+					<state>Oregon</state>
+					<postal>97232</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>1-971-673-1555</cntvoice>
+				<cntemail>dogami-info@oregon.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>These data were produced in collaboration with the Oregon Department of Geology and Mineral Industries (DoGAMI); DoGAMI distributes data directly to program partners. Public access to the data is available from http://www.oregongeology.org.</resdesc>
+		<distliab> Users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full awareness of its limitations. This product is for informational purposes and may not have been prepared for or be suitable for legal, engineering, surveying, or site specific purposes. Users of this information should review or consult the primary data and information sources to ascertain the usability of the information. Acknowledgment of Oregon Department of Geology and Industries (DOGAMI) would be appreciated for products derived from these data.</distliab>
+	</distinfo>
+	<metainfo>
+		<metd>20231124</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NV5 Geospatial</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>1100 NE Circle Blvd., Suite 126</address>
+					<city>Corvallis</city>
+					<state>OR</state>
+					<postal>97330</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>541-752-1204</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+	</metainfo>
+	<Esri><SyncOnce>TRUE</SyncOnce><ModDate>20233425</ModDate><ModTime>153NnS3500</ModTime></Esri></metadata>
