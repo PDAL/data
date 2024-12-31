@@ -1,0 +1,6 @@
+autzen-classified.copc.laz filter=lfs diff=lfs merge=lfs -text
+autzen-classified.laz filter=lfs diff=lfs merge=lfs -text
+autzen-hole-crazy-utm.laz filter=lfs diff=lfs merge=lfs -text
+autzen-hole-utm.laz filter=lfs diff=lfs merge=lfs -text
+autzen.laz filter=lfs diff=lfs merge=lfs -text
+stadium-utm.laz filter=lfs diff=lfs merge=lfs -text
